@@ -48,8 +48,8 @@ const generateRandomString = (length) => {
 
 function Login() {
   const classes = useStyles();
-
-  var client_id = process.env.REACT_APP_CL_ID;
+  console.log(process.env.SITE_NAME);
+  var client_id = process.env.CLID;
 
   var redirect_uri = 'https://exportify.netlify.app/';
   //var redirect_uri = 'http://localhost:3000/';
